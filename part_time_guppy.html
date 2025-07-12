@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Part-Time Guppy Fish Shop</title>
+  <link rel="icon" href="images/web-icon.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="header-side.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=cancel" />
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Material+Icons" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredericka+the+Great&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rouge+Script&family=Yanone+Kaffeesatz:wght@200..700&display=swap" rel="stylesheet">
+  </head>
+<body>
+    <div class="header-container">
+      <img src="images/logo.jpg" alt="Part-Time Guppy Logo" class="logo">
+      <h1 class="company-name">part time guppy</h1>
+      <div class="social-media">
+        <a href="https://wa.me/1234567890" target="_blank" class="social-icon">
+          <img src="images/whatsapp.png" alt="">
+        </a>
+        <a href="http://www.youtube.com/@PartTimeguppy" target="_blank" class="social-icon">
+          <img src="images/youtube.png" alt="">
+        </a>
+        <a href="https://www.instagram.com/part_time_guppy?igsh=bGNhMzBmOWwwZXVp" target="_blank" class="social-icon">
+          <img src="images/instagram.png" alt="">
+        </a>
+      </div> 
+    </div>
+    <div class="heading-cart">
+      <div class="main-h2"><h2  >Pick your dream guppy</h2>
+      </div>
+      <div class="cart" onclick=" cart('open')"><img src="images/shopping-cart.png" alt="">
+        <div class="reddot"> </div>
+      </div>
+      
+    </div>
+
+
+<div class="main-grid-container">
+
+  <div class="fish-item">
+    <img class="fish-image"src="images/OIP.jpeg" alt="Electric Blue Guppy">
+      <div class="fish-name"><h3>Electric Blue Guppy</h3></div>
+      <div class="price price-1"><p>price:  150₹ only</p></div>
+      <div class="quantity-selector">
+          <button class="quantity-btn minus"onclick="subquantity(1)">-</button>
+          <input type="number" class="quantity-input element-1" value="1" readonly />
+          <button class="quantity-btn plus"onclick="addquantity(1)">+</button>
+      </div>
+        <button id="add-to-cart-1" class="add-to-cart">Add to Cart</button>
+  </div>
+
+  <div class="fish-item">
+    <img class="fish-image"src="images/full_red.jpeg" alt="Full Red Guppy">
+        <div class="fish-name"><h3>Full Red Guppy</h3></div>
+        <div class="price price-2" ><p>price:  150₹ only</p></div>
+      <div class="quantity-selector">
+          <button class="quantity-btn minus "onclick="subquantity(2)" >-</button>
+          <input type="number" class="quantity-input element-2"  value="1"   readonly />
+          <button class="quantity-btn plus"onclick="addquantity(2)">+</button>
+      </div>
+        <button id="add-to-cart-2" class="add-to-cart">Add to Cart</button>
+  </div>
+
+      <div class="fish-item">
+        <img class="fish-image"src="images/yellow_tiger.jpeg" alt="Yellow Tiger Guppy">
+        <div class="fish-name"><h3>Yellow Tiger Guppy</h3></div>
+        <div class="price price-3" ><p>price:  150₹ only</p></div>
+        <div class="quantity-selector">
+          <button class="quantity-btn minus"onclick="subquantity(3)">-</button>
+          <input type="number" class="quantity-input element-3" value="1"  readonly />
+          <button class="quantity-btn plus"onclick="addquantity(3)">+</button>
+        </div>
+        <button class="add-to-cart" id="add-to-cart-3">Add to Cart</button>
+      </div>
+
+      <div class="fish-item">
+        <img class="fish-image"src="images/white.jpeg" alt="Clownfish">
+        <div class="fish-name"><h3>white tuxedo guppy</h3></div>
+        <div class="price price-4" ><p>price:  150₹ only</p></div>
+        <div class="quantity-selector">
+          <button class="quantity-btn minus"onclick="subquantity(4)">-</button>
+          <input type="number" class="quantity-input element-4" value="1"  readonly />
+          <button class="quantity-btn plus"onclick="addquantity(4)">+</button>
+        </div>
+        <button class="add-to-cart" id="add-to-cart-4">Add to Cart</button>
+      </div>
+     
+      <div class="fish-item">
+        <img class="fish-image"src="images/darkknightguppy.jpeg" alt="Yellow Tiger Guppy">
+        <div class="fish-name"><h3>dark knight guppy</h3></div>
+        <div class="price price-5" ><p>price:  150₹ only</p></div>
+        <div class="quantity-selector">
+          <button class="quantity-btn minus"onclick="subquantity(5)">-</button>
+          <input type="number" class="quantity-input element-5"  value="1"  readonly />
+          <button class="quantity-btn plus"onclick="addquantity(5)">+</button>
+        </div>
+        <button class="add-to-cart" id="add-to-cart-5">Add to Cart</button>
+      </div>
+      <div class="fish-item">
+        <img class="fish-image"src="images/Pink Butterfly Guppy.jpg" alt="Yellow Tiger Guppy">
+        <div class="fish-name"><h3>Pink Butterfly Guppy </h3></div>
+        <div class="price price-6" ><p>price:  150₹ only</p></div>
+        <div class="quantity-selector">
+          <button class="quantity-btn minus"onclick="subquantity(6)">-</button>
+          <input type="number" class="quantity-input element-6" value="1"  readonly />
+          <button class="quantity-btn plus"onclick="addquantity(6)">+</button>
+        </div>
+        <button class="add-to-cart" id="add-to-cart-6">Add to Cart</button>
+      </div>
+      <div class="fish-item">
+        <img class="fish-image"src="images/yellow_pinku.jpg" alt="Yellow Tiger Guppy">
+        <div class="fish-name"><h3>yellow pinku guppy</h3></div>
+        <div class="price price-7" ><p>price:  150₹ only</p></div>
+        <div class="quantity-selector">
+          <button class="quantity-btn minus"onclick="subquantity(7)">-</button>
+          <input type="number" class="quantity-input element-7" value="1"  readonly />
+          <button class="quantity-btn plus"onclick="addquantity(7)">+</button>
+        </div>
+        <button class="add-to-cart" id="add-to-cart-7">Add to Cart</button>
+      </div>
+      <div class="fish-item">
+        <img class="fish-image"src="images/R.jpeg" alt="Yellow Tiger Guppy">
+        <div class="fish-name"><h3>Full Gold Guppy</h3></div>
+        <div class="price price-8" ><p>price:  150₹ only</p></div>
+        <div class="quantity-selector">
+          <button class="quantity-btn minus"onclick="subquantity(8)">-</button>
+          <input type="number" class="quantity-input element-8" value="1"  readonly />
+          <button class="quantity-btn plus"onclick="addquantity(8)">+</button>
+        </div>
+        <button class="add-to-cart" id="add-to-cart-8">Add to Cart</button>
+      </div>
+      <div class="fish-item">
+        <img class="fish-image"src="images/Yellow_Pastal_Guppy.jpeg" alt="Yellow Tiger Guppy">
+        <div class="fish-name"><h3>Yellow Pastal Guppy</h3></div>
+        <div class="price price-9" ><p>price:  150₹ only</p></div>
+        <div class="quantity-selector">
+          <button class="quantity-btn minus"onclick="subquantity(9)">-</button>
+          <input type="number" class="quantity-input element-9" value="1"  readonly />
+          <button class="quantity-btn plus"onclick="addquantity(9)">+</button>
+        </div>
+        <button class="add-to-cart" id="add-to-cart-9">Add to Cart</button>
+      </div>
+      <div class="fish-item">
+        <img class="fish-image"src="images/panda.jpeg" alt="Yellow Tiger Guppy">
+        <div class="fish-name"><h3>Blue Panda Guppy</h3></div>
+        <div class="price price-10" ><p>price:  200₹ only</p></div>
+        <div class="quantity-selector">
+          <button class="quantity-btn minus"onclick="subquantity(10)">-</button>
+          <input type="number" class="quantity-input element-10" value="1"  readonly />
+          <button class="quantity-btn plus"onclick="addquantity(10)">+</button>
+        </div>
+        <button class="add-to-cart" id="add-to-cart-10">Add to Cart</button>
+      </div>
+      <div class="fish-item">
+        <img class="fish-image"src="images/metal.jpeg" alt="Yellow Tiger Guppy">
+        <div class="fish-name"><h3>Black Metal Lace Guppy</h3></div>
+        <div class="price price-11" ><p>price:  150₹ only</p></div>
+        <div class="quantity-selector">
+          <button class="quantity-btn minus"onclick="subquantity(11)">-</button>
+          <input type="number" class="quantity-input element-11" value="1"  readonly />
+          <button class="quantity-btn plus"onclick="addquantity(11)">+</button>
+        </div>
+        <button class="add-to-cart" id="add-to-cart-11">Add to Cart</button>
+      </div>
+      <div class="fish-item">
+        <img class="fish-image"src="images/ear.jpeg" alt="Yellow Tiger Guppy">
+        <div class="fish-name"><h3>Dumbo Ear Guppy</h3></div>
+        <div class="price price-12"><p>price:  150₹ only</p></div>
+        <div class="quantity-selector">
+          <button class="quantity-btn minus"onclick="subquantity(12)">-</button>
+          <input type="number" class="quantity-input element-12" value="1"  readonly />
+          <button class="quantity-btn plus"onclick="addquantity(12)">+</button>
+        </div>
+        <button class="add-to-cart" id="add-to-cart-12">Add to Cart</button>
+      </div>
+      <div class="fish-item">
+        <img class="fish-image"src="images/Crown_Tail_Guppy.jpg" alt="Yellow Tiger Guppy">
+        <div class="fish-name"><h3>Crown Tail Guppy</h3></div>
+        <div class="price price-13" ><p>price:  ₹150 only</p></div>
+        <div class="quantity-selector">
+          <button class="quantity-btn minus"onclick="subquantity(13)">-</button>
+          <input type="number" class="quantity-input element-13" value="1"  readonly />
+          <button class="quantity-btn plus"onclick="addquantity(13)">+</button>
+        </div>
+        <button class="add-to-cart" id="add-to-cart-13">Add to Cart</button>
+      </div>
+      <div class="fish-item">
+        <img class="fish-image"src="images/Short_body_dumbo_ear_guppy.jpeg" alt="Yellow Tiger Guppy">
+        <div class="fish-name"><h3>dumbo ear (Short body)</h3></div>
+        <div class="price price-14" ><p>price:  ₹500 only</p></div>
+        <div class="quantity-selector">
+          <button class="quantity-btn minus"onclick="subquantity(14)">-</button>
+          <input type="number" class="quantity-input element-14" value="1"  readonly />
+          <button class="quantity-btn plus"onclick="addquantity(14)">+</button>
+        </div>
+        <button class="add-to-cart" id="add-to-cart-14">Add to Cart</button>
+      </div>
+    </div>
+
+  <div class="cart-sidebar">
+    <div class="cart-h3"><h3>Shopping Cart</h3></div>
+      <div class="cart-cross" onclick=" cart('close')"><img src="images/circle-xmark.png" alt=""></div>
+       <div class="cart-product">
+       
+       </div>
+      <div class="cart-bottem"> 
+       <p class="cart-total">Total Amount: </p>
+       <p class="cart-total-value">₹0</p>
+      <button class="order-btn"  onclick=" cart('open-data')">order</button>
+    </div>
+   </div>
+<div class="about">
+    <div class="about-section">
+      <div class="main-about-heading"><h2>about</h2></div>
+      <div class="delivery-section">
+        <div class="content-about">
+         <h2 class="delivery-section-heading">Delivery Policy 🚛</h2>
+         <div class="delivery-first-section"><p class="content"><span class="sub-heading-about">Delivery Area :</span> Currently, we deliver only within Tamil Nadu.</p></div>
+         <div class="delivery-second-section"><p class="content"><span class="sub-heading-about">Delivery Time :</span> Orders are processed and delivered within 1 business day after confirmation..</p></div>
+         <div class="delivery-third-section"><p class="content"><span class="sub-heading-about">Delivery Charges :</span> Currently, we deliver only within Tamil Nadu.</p></div>
+         <div class="content sub-heading-delivery"> <p><span class="sub-heading-about">Thank of choosing us 🙏</span></p></div>
+      </div>
+</div>
+<div class="policy" >
+      <div class="content-about">
+        <h2 class="delivery-section-heading">contact us 📞</h2>
+        <div class="policy-first-section"> <p class="content"><span class="sub-heading-about">farm name :</span> part time guppy</p></div>
+         <div class="policy-second-section"> <p class="content Mobile-number"><span class="sub-heading-about">contact number:</span>  6374446458</p></div>
+         <div class="policy-third-section"><p class="content"><span class="sub-heading-about">location :<a class="address-link" href="https://maps.app.goo.gl/PubbqCthMr5Vefbh7"></span>ramakrishna nager sirechatiram salai north gate thanjavur </p></a></div>
+         <div class="content sub-heading-delivery"><p><span class="sub-heading-about">Thank of choosing us 🙏</span></p></div>
+      </div>
+</div>
+<div class="payment-section">
+    <div class="payment-heading"><h1>Scan to Pay</h1></div>
+    <div class="payment-remove-button " onclick=" cart('payment-close')"><img src="images/circle-xmark.png" alt=""></div>
+    <div class="payment-qr"><img class="payment-qr-image" src="images/main-qr.jpg" alt=""></div>
+    <div class="display-ammount"><h3>total you need to pay:₹0</h3></div>
+    <div class="thank-section"><div class="confirm"><button class="confirm-btn"  onclick="cart('close');saveInput()">done</button></div></div>
+</div>
+
+<div class="log-section">
+  <div class="log heading">Enter your details</div>
+  <div class="cross-log-btn"><img onclick=" cart('close')" src="images/circle-xmark.png" alt=""></div>
+  <p class="log name">name :</p>
+    <div class="hello"><input class="input name-input" type="text" placeholder="name"></div>
+  <p class="log number">ph: </p>
+  <div class="hello number-input"><input class="input ph-input" type="text" placeholder="Mobile Number"></div>
+  <p class="log address">address : </p>
+  <div class="hello inp-address"><textarea class="input address-input" placeholder="address"></textarea></div>
+  <p class="log pincode">pincode :</p>
+  <div class="hello pincode-input"><input class="input pin-code-input" type="text" placeholder="Pincode"></div>
+  <div class="confirm"><button class="confirm-btn"  onclick="cart('payment-open');saveInput()">subimt</button></div>
+</div>
+
+<div class="order-before-details">
+  <div class="order-before-details-remove-button" ><img onclick="cart('close')" src="images/circle-xmark.png" alt=""></div>
+  <div class=" info main-order-heading"><h2>make sure read details</h2></div>
+  <div class="info info-heading"><span class="main-tittle">Fill Details Carefully ✍️ :</span>Ensure your address and phone number are correct.
+Wrong details may delay delivery</div>
+  <div class="info info-payment"><span class="main-tittle">Payment 💳 :</span>Pay the total amount shown.
+
+Payment confirmation will be sent</div>
+  <div class="info info-delivery"><span class="main-tittle">Delivery 🚚 :</span>Takes 1-2 business days after payment.
+
+Fresh fish will be delivered in insulated packaging.</div>
+  <div class="info info-need-help"><span class="main-tittle">Need Help? 📞 :</span>For order issues, delivery questions, or corrections:
+Call: 6374446458 (Customer Support)</div>
+  <div class=""></div>
+  <div class="end-order-heading"><button class="read-details-btn"  onclick="cart('open-fill')">next</button></div>
+
+</div>
+<script type="module" src="script.js"></script>
+</body> 
+</html>
