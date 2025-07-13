@@ -4,7 +4,7 @@ export let products = [
     image:"images/OIP.jpeg",
     name: "Electric Blue",
     quantity: "1",
-    price: "150",
+    price: "110",
     stock: "yes",
     totalprice:""
   },
@@ -31,7 +31,7 @@ export let products = [
     image:"images/white.jpeg",
     name: "White Tuxedo Guppy",
     quantity: "1",
-    price: "150",
+    price: "110",
     stock: "yes",
     totalprice:""
   },
@@ -40,7 +40,7 @@ export let products = [
     image:"images/darkknightguppy.jpeg",
     name: "Dark Knight Guppy",
     quantity: "1",
-    price: "150",
+    price: "110",
     stock: "yes",
     totalprice:""
   },
@@ -49,7 +49,7 @@ export let products = [
     image:"images/Pink Butterfly Guppy.jpg",
     name: "Pink Butterfly Guppy",
     quantity: "1",
-    price: "150",
+    price: "100",
     stock: "yes",
     totalprice:""
   },
@@ -94,7 +94,7 @@ export let products = [
     image:"images/metal.jpeg",
     name: "Black Metal Lace Guppy",
     quantity: "1",
-    price: "150",
+    price: "100",
     stock: "yes",
     totalprice:""
   },
@@ -112,7 +112,7 @@ export let products = [
     image:"images/Crown_Tail_Guppy.jpg",
     name: "Crown Tail Guppy",
     quantity: "1",
-    price: "150",
+    price: "100",
     stock: "yes",
     totalprice:""
   },
@@ -121,7 +121,7 @@ export let products = [
     image:"images/Short_body_dumbo_ear_guppy.jpeg",
     name: "Dumbo Ear (Short Body)",
     quantity: "1",
-    price: "500",
+    price: "400",
     stock: "yes",
     totalprice:""
   }
