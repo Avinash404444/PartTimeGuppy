@@ -116,7 +116,7 @@
   background-color: #ffffff;
   box-shadow: -2px 0px 10px rgba(0, 0, 0, 0.1);
   z-index: 1000;
-  height: 100vh;
+  height: 90vh;
   display:none;
   grid-template-columns: 50px 1fr 80px;
   grid-template-rows: 100px 1fr 80px; 
@@ -128,7 +128,7 @@
 .cart-product {
   grid-column: 1/-1;
   overflow-y: auto; 
-  max-height: calc(100vh - 180px); 
+  max-height: calc(90vh - 180px); 
   padding: 5px;
 }
 
