@@ -29,7 +29,7 @@ window.cart=function(value){
     cartsidebar.style.display = 'none';
     paymentsection.style.display = 'none';
     detailsection.style.display = 'none';
-    location.reload();
+    
   }
   else {
   cartsidebar.style.display = 'none';
